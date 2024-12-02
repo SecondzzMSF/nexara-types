@@ -16,7 +16,7 @@ const posts = [
     author: {
       avatarUrl: "https://github.com/SecondzzMSF.png",
       name: 'Matheus Sencades',
-      role: 'Web Developer'
+      role: 'Web Developer',
     },
     content: [
       { type: 'paragraph', content: 'Bom dia, pessoal!'},
@@ -30,7 +30,7 @@ const posts = [
     author: {
       avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQH43XKsC1X0fg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726916283609?e=1738800000&v=beta&t=O9e12u7H28WagtmHMEPi2595gLrANSQKWAZaMj5cTG0",
       name: 'Prof. Dr. Sávio Almeida',
-      role: 'Educator at @UNINASSAU'
+      role: 'Educator at @UNINASSAU',
     },
     content: [
       { type: 'paragraph', content: 'Olá, seguidores!'},

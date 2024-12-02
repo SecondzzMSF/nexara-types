@@ -5,6 +5,7 @@ import { ptBR } from 'date-fns/locale/pt-BR';
 
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
+
 import styles from './Post.module.css';
 
 interface Author {
@@ -24,7 +25,7 @@ interface PostProps {
   content: Content[];
 }
 
-export function Post({ author, publishedAt, content }: PostProps) {
+export function Post({ author, content, publishedAt }: PostProps) {
   const [comments, setComments] = useState([
     'Postagem muito interessante!'
   ])
